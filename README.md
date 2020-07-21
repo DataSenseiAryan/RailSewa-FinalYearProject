@@ -21,19 +21,19 @@
 
 Still you may reference these links.
 
-* Setup AWS account and launch required numbers of EC2 instances. (master,slave,website server)[Launch instance](https://www.novixys.com/blog/setup-apache-hadoop-cluster-aws-ec2/)
+* Setup AWS account and launch required numbers of EC2 instances. (master,slave,website server)[(Launch instance)](https://www.novixys.com/blog/setup-apache-hadoop-cluster-aws-ec2/)
 
-* Setup AWS RDS for database.[Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html)
+* Setup AWS RDS for database.[(Documentation)](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html)
 
-* From twitter api get Access token , consumer token etc. [how-to](https://gist.github.com/aryanc55/21122bcce026e7fe4383e6d13c66b992)
+* From twitter api get Access token , consumer token etc. [(How-to)](https://gist.github.com/aryanc55/21122bcce026e7fe4383e6d13c66b992)
 
-* Prepare EC2 servers for ditributed computing i.e. establish communication in between system. Setup [SSH](https://www.novixys.com/blog/setup-apache-hadoop-cluster-aws-ec2/)
+* Prepare EC2 servers for ditributed computing i.e. establish communication in between system. Setup [(SSH Setup)](https://www.novixys.com/blog/setup-apache-hadoop-cluster-aws-ec2/)
 
 * Setup Spark Cluster of atleast 3 Nodes [(Spark Installation)]( https://blog.insightdatascience.com/simply-install-spark-cluster-mode-341843a52b88)
 
 * Install Kakfa & Zookeeper [(Kakfa Installation)](https://codeforgeek.com/how-to-setup-multi-node-multi-broker-kafka-cluster-in-aws/) [(Zookeeper Installation)](https://github.com/airavata-courses/TeamSangam/wiki/Zookeeper-Installation-on-EC2)
 
-* Install Xampp server on ec2 instance dedicated to xampp only. [](https://www.9lessons.info/2015/12/amazon-ec2-setup-with-ubuntu-and-xampp.html)
+* Install Xampp server on ec2 instance dedicated to xampp only.[(Xampp Setup)](https://www.9lessons.info/2015/12/amazon-ec2-setup-with-ubuntu-and-xampp.html)
 
 * Python 3
 
