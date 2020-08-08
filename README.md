@@ -153,7 +153,7 @@ change directory into IR..... folder
 
 >To access website http://IP-Address/path
 
-
+>http://ec2-18-222-188-220.us-east-2.compute.amazonaws.com/railways/login.php (in mycase)
 
 Finally open railways/index.php file to interact with UI and manage tweets in real-time.
 
