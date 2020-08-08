@@ -136,7 +136,7 @@ change directory into IR..... folder
 **STEP-11:** Job submission on spark for prediction
 
 
->spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.1.0 live_processing3.py
+>spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.1.0 new_live_processing.py
 
 
 ###### on x:
