@@ -75,6 +75,7 @@ Still you may reference these links.
 
 
 >zookeeper-server-start.sh 
+>zkServer.sh start
 
 if path for zookeper is not setup in bash then cd (change directory to zookeeper folder).
 
