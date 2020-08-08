@@ -50,7 +50,7 @@ Still you may reference these links.
 **STEP-1:** Login into remote database Amazon RDS.
 
 
->mysql -h "your database ip" -P 3306 -u "password" -p
+>mysql -h "your database ip" -P 3306 -u "username" -p
 
 
 **STEP-2:** Create a database:
