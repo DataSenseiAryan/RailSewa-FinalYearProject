@@ -1,0 +1,6 @@
+{
+    "require": {
+        "abraham/twitteroauth": "^0.7.4",
+        "bshaffer/oauth2-server-php": "^1.10"
+    }
+}
