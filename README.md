@@ -3,15 +3,16 @@
 
 ### Project Snapshots:
 
+[Presentation](https://github.com/aryanc55/RailSewa-FinalYearProject/raw/master/assets/presentation.pdf)
+
+[Thesis](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/thesis.pdf)
 
 
-
-1. 
-2. 
-3. 
-4. 
-5.
-6. 
+1.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/login.jpeg?raw=true)
+2.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/emergency.jpeg?raw=true) 
+3.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/feedback.jpeg?raw=true) 
+4.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/reply.jpeg?raw=true) 
+5.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/reply_sent.jpeg?raw=true)
 
 
 ## Pre-Requisites:
@@ -73,8 +74,6 @@ Still you may reference these links.
 
 **STEP-5:** Start  Apache Zookeeper:
 
-
->zookeeper-server-start.sh 
 >zkServer.sh start
 
 if path for zookeper is not setup in bash then cd (change directory to zookeeper folder).
@@ -87,13 +86,13 @@ if path for zookeper is not setup in bash then cd (change directory to zookeeper
 
 cd kafka folder (cd means change directory to kafka folder)
 
->nohup bin/kafka-server-start.sh config/server.properties
+>nohup bin/kafka-server-start.sh config/server.properties &
 
 ###### on s1 and s2:
 
 cd kakfa folder
 
->bin/kafka-server-start.sh config/server.properties &
+>nohup bin/kafka-server-start.sh config/server.properties &
 
 ###### on m:
 
@@ -120,7 +119,7 @@ Again *cd* to where kafka is installed
 
 **STEP-9:** Execute streamimg code
 
-change directory into IR..... folder
+change directory into Railsewa..... folder
 
 
 >python kafka_file/stream_data.py &
@@ -153,8 +152,6 @@ change directory into IR..... folder
 
 >To access website http://IP-Address/path
 
->http://ec2-18-222-188-220.us-east-2.compute.amazonaws.com/railways/login.php (in mycase)
-
 Finally open railways/index.php file to interact with UI and manage tweets in real-time.
 
 
@@ -166,10 +163,20 @@ Copyright (c) 2020 Aryan Chaudhary
 [MIT](LICENSE)
 
 
+
+**ToDo**
+You may work on these!
+- Develop functioning tweet analysis part.
+- Develop API and integrate the app.
+- Implement ML module as a pipline(to actually remove a very subtle but dangerous bug).
+- May be create a Docker to deploy whole project with just a single click!
+
+**Minatainence**
+Currently all of us are busy in our personal work/projects and hence we are not maintaining this project anymore. Still PRs and Issues are welcomed but we do not assure that we will look into it.
+
+**Thank you for your time**
+
 **Show some :heart: by leaving a :star: at this page!**  </br>
 
 [![HitCount]()
-
-
-
 
