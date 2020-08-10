@@ -1,7 +1,7 @@
 # Real Time Indian Railways Twitter Complaint Administration System
 
+The project invloves real-time classfication of Indian Railways tweets into emergency and feedback using Apache Spark, Kafka, MySQL and PHP. It also facilitates interactive response via Twitter API in the same application with the help of front-end technologies like HTML, CSS, Bootstrap, JQuery, JavaScript and AJAX. The complete cluster is deployed on AWS EC2 and it uses AWS RDS for database operations.
 
-### Project Snapshots:
 
 ###### [Youtube Video](https://youtu.be/dyg58M6-6MU)
 
@@ -9,6 +9,8 @@
 
 ###### [Thesis](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/thesis.pdf)
 
+
+### Project Snapshots:
 
 1.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/login.jpeg?raw=true)
 2.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/emergency.jpeg?raw=true) 
