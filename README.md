@@ -3,9 +3,11 @@
 
 ### Project Snapshots:
 
-[Presentation](https://github.com/aryanc55/RailSewa-FinalYearProject/raw/master/assets/presentation.pdf)
+###### [Youtube Video](https://youtu.be/dyg58M6-6MU)
 
-[Thesis](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/thesis.pdf)
+###### [Presentation](https://github.com/aryanc55/RailSewa-FinalYearProject/raw/master/assets/presentation.pdf)
+
+###### [Thesis](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/thesis.pdf)
 
 
 1.![](https://github.com/aryanc55/RailSewa-FinalYearProject/blob/master/assets/login.jpeg?raw=true)
@@ -177,6 +179,3 @@ Currently all of us are busy in our personal work/projects and hence we are not 
 **Thank you for your time**
 
 **Show some :heart: by leaving a :star: at this page!**  </br>
-
-[![HitCount]()
-
