@@ -1,0 +1,11 @@
+cd /usr/local/kafka
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+bin/kafka-server-start.sh config/server.properties
+
+bin/kafka-topics.sh --create --zookeeper --partitions 1 --topic twitterstream localhost:2181 --replication-factor 1 #Create it only once
+
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --from-beginning
+
+NOTE: --topic is user-defined, need not to be same as "twitterstream", you may make it anything. 
