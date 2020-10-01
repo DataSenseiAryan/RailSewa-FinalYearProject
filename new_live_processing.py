@@ -13,11 +13,11 @@ import MySQLdb
 
 
 def insert_tweet(tweet,username,pnr,prediction,tweet_id,latitude,longitude):
-    HOST = "database-1.ctrbpvenwkxn.us-east-2.rds.amazonaws.com"
+    HOST = ""
     PORT = 3306
-    USER = "ghost"
-    PASSWORD = "rishitosh"
-    DB = "twitter2"
+    USER = ""
+    PASSWORD = ""
+    DB = ""
 
     query = 'INSERT INTO tweets(tweet,username,pnr,prediction,tweet_id,latitude,longitude,time) VALUES ("%s","%s",%s,%s,%s,%s,%s,CURRENT_TIMESTAMP);'% (tweet,username,str(pnr),str(int(prediction)),str(tweet_id),str(latitude),str(longitude))
     try:
