@@ -13,11 +13,11 @@ import MySQLdb
 
 
 def insert_tweet(tweet,username,pnr,prediction,tweet_id):
-    HOST = "database-1.ctrbpvenwkxn.us-east-2.rds.amazonaws.com"
-    PORT = 3306
-    USER = "ghost"
-    PASSWORD = "rishitosh"
-    DB = "twitter"
+    HOST = "put you database URL here"
+    PORT = "port number"
+    USER = "username"
+    PASSWORD = "paasword"
+    DB = "Database NAme"
     query = 'INSERT INTO tweets(tweet,username,pnr,prediction,tweet_id) VALUES ("%s","%s",%s,%s,%s);' % (tweet,username,str(pnr),str(int(prediction)),str(tweet_id))
 #    query = "INSERT INTO tweets(tweet,username,pnr,prediction,tweet_id) VALUES ('"+tweet+"','"+username+"',"+str(pnr)+","+str(int(prediction))+","+str(tweet_id)+");"
     try:
